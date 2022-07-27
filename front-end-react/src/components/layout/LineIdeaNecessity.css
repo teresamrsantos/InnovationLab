@@ -1,0 +1,105 @@
+.ideaNecessity{
+    display: flex;
+    background: #f8f5f5;
+    border: 1px solid #FFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 2%;
+    margin-right: 5%;
+    margin-top: 1%;
+    padding: 1%;
+    /*cursor: pointer;*/
+}
+.ideaNecessityDelete{
+    display: flex;
+    background: #bcb5b5;
+    border: 1px solid #FFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 2%;
+    margin-right: 5%;
+    margin-top: 1%;
+    padding: 1%;
+    /*cursor: pointer;*/
+}
+
+.ideaNecessity:hover,
+.ideaNecessityDelete:hover,
+.justificationIdeaNecessity:hover{
+    background: #F2B7B7;
+    color: rgba(255, 253, 253, 0.5);
+    transition: 1s;
+}
+
+.type-ideaNecessity{
+    align-items: center;
+    width: 10%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.simbol-idea{
+    margin-left: 15%;
+}
+
+.simbol-necessity{
+    margin-left: 2%;
+}
+
+.content-ideaNecessity{
+    width: 80%;
+    /*display: grid;
+    grid-template-columns: auto;*/
+}
+
+.action-ideaNecessity{
+    align-items: center;
+    width: 10%;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.action{
+    padding: 12%;
+}
+
+.date1-ideaNecessity{
+    margin-left: 4%;
+
+}
+
+.date2-ideaNecessity{
+    margin-left: 4%;
+}
+
+.info-ideaNecessity{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+}
+
+.triangule{
+    margin-left: 4%;
+}
+
+.update-ideaNecessity{
+    display: flex;
+    align-items: center;
+   /* margin-right: 0em;*/
+}
+
+.justificationIdeaNecessity{
+    display: flex;
+    background: #f8f5f5;
+    border: 1px solid #FFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 2%;
+    margin-right: 4%;
+    margin-top: 1%;
+    padding: 0.5%;
+    /*cursor: pointer;*/
+}
+
+.div-authorJustification,
+.div-descriptionJustification{
+    display: flex;
+    flex-direction: row;
+}

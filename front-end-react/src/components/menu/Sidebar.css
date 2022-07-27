@@ -1,0 +1,148 @@
+ul {
+  list-style: none;
+}
+
+.menu {
+  display: flex;
+  flex-basis: 100%;
+  background-color: #9ea1a9d5;
+  font-family: "Poppins";
+  font-size: medium;
+  position: relative;
+  z-index: 2;
+}
+
+.nav-menu {
+  background-color: #9ea1a9d5;
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: 850ms;
+}
+
+.nav-menu.active {
+  left: 0;
+  transition: 350ms;
+}
+
+.navbar-toggle {
+  cursor: pointer;
+  margin-left: 80%;
+}
+
+.navbar-toggle:hover {
+  color: #650a0b;
+}
+.open {
+  margin-left: 2%;
+}
+
+.nav-menu-items {
+  position: relative;
+  top: -16vh;
+}
+
+.picture {
+  height: 15vh;
+  width: 15vh;
+  margin-left: 6%;
+  border-radius: 50px;
+}
+
+.userInfoContainer {
+  align-items: center;
+  text-align: center;
+  margin-top: 5%;
+}
+.userInfoContainer_text {
+  margin-top: 5%;
+}
+
+.menu-Content-container {
+  margin-top: 15px;
+}
+
+.link {
+  margin-left: -20px;
+  color: black;
+}
+
+.nav-text,
+.link {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 6px 0px 0px 16px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.submenu {
+  margin-left: -6px;
+  font-size: 90%;
+  text-decoration: none;
+  color: black;
+}
+.submenu:hover {
+  color: #c11723;
+}
+.nav-text:hover,
+.link:hover {
+  color: #650a0b;
+  text-decoration: underline;
+  transition: 1ms;
+}
+
+/********************* SideBar********************/
+/************************************************/
+
+.topbar {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  align-items: center;
+  background-color: #9ea1a9d5;
+}
+.topbar_text {
+  margin-left: 2%;
+  display: flex;
+  flex-direction: row;
+}
+
+.topbarLink{
+  margin-left: 5%;
+  margin-bottom: 2%;
+}
+.topbar_iconDIV{
+  display: flex;
+  flex-direction: row;
+  float: right;
+  margin-left: 70%;
+  align-items: center;
+}
+.topbarIcon{
+  cursor: pointer;
+  margin-left: 5%;
+}
+
+.divCircle {
+  display: flex;
+  width:20px;
+  height: 20px;
+  background-color: #c11723;
+  border-radius: 50%;
+  margin-top: -20px;
+}
+
+.circleText{
+  color: azure;
+  font-size: x-small;
+  margin: auto;
+}

@@ -1,0 +1,41 @@
+.logo-critical {
+    position: absolute;
+    /*left: -32em;*/
+    top: 0em;
+    max-width: 20%;
+    max-height: 20%;
+  }
+  
+  .EmailVerification {
+    display: flex;
+    background: url("../../images/964uRTaAp-tlcXbXHQ-Titans_Careers.jpg") no-repeat center
+      center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .emailVerification-lateral {
+    display: flex;
+    flex-basis: 50%;
+  }
+
+  .ul-title {
+    width: 100%;
+  }
+
+  .emailVerification-rectangule {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 100%;
+    height: 90vh;
+    margin: auto;
+    background: rgba(255, 253, 253, 0.5);
+    border-radius: 20px;
+    padding: 2%;
+    padding-bottom: 5%;
+    margin-right: 2%;
+  }

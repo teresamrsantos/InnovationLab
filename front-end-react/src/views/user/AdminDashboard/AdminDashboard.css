@@ -1,0 +1,107 @@
+.rectangleManageUsersAdmin {
+  background: url("../../../images/image3.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  align-items: center;
+  min-height: 100vh;
+  height: fit-content;
+  padding: 20px;
+}
+
+.settimeoutLabel {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 150%;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  color: #520202;
+}
+
+.setTimeOut_Div {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  margin-left: 15%;
+}
+
+.settimeout_inputDIV {
+  display: flex;
+  flex-direction: row;
+  margin-left: 2%;
+}
+
+.settimeoutDIV_INPUT {
+  margin-top: 3%;
+  width: 90px;
+  height: fit-content;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  border: #520202 0.6px solid;
+}
+
+.settimeoutDIV_span {
+  font-size: 1.2em;
+
+  padding: 3%;
+}
+
+.settimeoutDIV_Button {
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  width: 10%;
+  height: 32.09px;
+  background: #6b0409;
+  border-radius: 0.7rem;
+  border: none;
+  color: white;
+  font-size: 1rem;
+}
+
+.search-usernameEmail_AdminDashboard {
+  border: #520202 0.2px solid;
+  border-radius: 5px;
+  padding: 3px;
+  margin-left: 2%;
+  width: 210px;
+}
+
+.search-usernameEmail_AdminDashboard_label {
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.buttonDivAdmindDashboard {
+  margin-top: 3%;
+  margin-left: 5%;
+  width: 50em;
+}
+
+.showSuccesssMessageEditTimeOut {
+  padding: 10px;
+  border-radius: 10px;
+  border: #740b12 solid 3px;
+  font-size: large;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #740b12;
+}
+
+.selectSearch-manageUsers {
+  display: flex;
+  flex-direction: row;
+  margin-left: -12%;
+}
+
+.multiselect-userType {
+  margin-left: 5%;
+}

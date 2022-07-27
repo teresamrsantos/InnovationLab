@@ -1,0 +1,176 @@
+.divEachProject {
+  border: none;
+  border-radius: 2px;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.507), 0 1px 2px rgb(0 0 0 / 20%);
+  transition: box-shadow 0.25s;
+  overflow: hidden;
+  margin: 12px;
+  display: flex;
+  flex-direction: column;
+  max-width: 450px;
+  min-width: 450px;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.concluded {
+  background-color: #211f1f8c;
+}
+
+.projectTitleAndButtons_ProjectSquare {
+  padding: 2% 2% 0% 2%;
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+  border-bottom: #000000 solid 3px;
+}
+
+.projectTitle_ProjectSquare {
+  width: 80%;
+  text-align: left;
+  margin-left: 2%;
+}
+
+.favoriteDetailsButton_ProjectSquare {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+}
+
+.btn-favorite-project {
+  padding-top: 4px;
+}
+.btn-favorite-project,
+.btn-navigate-details-project {
+  background-color: transparent;
+  border: transparent;
+}
+
+.pictureProject_DIV {
+}
+.usernameAuthorEachProject {
+  float: left;
+  margin-left: 5%;
+}
+
+.creationDateEachProjectDIV {
+  text-align: left;
+  margin-left: 5%;
+}
+.creationDateEachProject {
+  font-size: 12px;
+}
+
+
+
+.vacanciesAndAdminButtons {
+  overflow: hidden;
+  justify-content: space-evenly;
+  white-space: nowrap;
+  width: 225px;
+}
+
+.profileImgEachProject {
+  margin-top: 1%;
+  max-width: 100%;
+  max-height: 100%;
+  border-style: solid;
+  border-color: rgba(128, 128, 128, 0.233);
+  width: 380px;
+  height: 165px;
+}
+
+.buttonMyProjectsEdit-ManageUsers,
+.buttonMyProjectsEdit {
+  background-color: transparent;
+  border: transparent;
+}
+
+.leaveTheProjectDiv {
+  background-color: rgba(246, 249, 249, 0.603);
+  padding-top: 18%;
+  padding-bottom: 18%;
+}
+
+.buttonLeaveProject,
+.buttonMyProjectsEdit-ConcludeProject {
+  border-radius: 12px;
+  border-color: rgb(235, 63, 63);
+  background-color: rgba(231, 225, 215, 0.53);
+  border-color: #fff;
+}
+
+.buttonLeaveProject:hover,
+.buttonMyProjectsEdit-ConcludeProject:hover {
+  background-color: rgba(103, 100, 90, 0.53);
+  border-color: rgb(81, 78, 78);
+  transition: 6ms;
+}
+
+.buttonMyProjectsEdit-ConcludeProject {
+  margin-right: 4%;
+}
+
+.buttonMyProjectsEdit-LeaveProject:hover {
+  border-color: rgb(81, 78, 78);
+  transition: 6ms;
+}
+
+.btns_admin_ProjectSquare {
+  display: flex;
+  flex-direction: row;
+}
+
+.adminButtonsMyProject {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20%;
+}
+
+.buttonMyProjectsEdit-ConcludeProject{
+  width: 200px;
+  background-color: rgba(255, 0, 0, 0.555);
+  border-color: transparent;
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: small;
+  padding-left: 20px;
+  padding-right: 10px;
+  border-radius: 10px;
+
+}
+
+
+.projectFooter {
+  display: flex;
+  flex-direction: row;
+
+  padding: 4px;
+  width: 100%;
+}
+
+.authorProject_nameDIV{
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap;
+  width: 80%;
+
+}
+.btns_admin_buttonMyProjectsEdit{
+
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap;
+  width: 45%;
+}
+
+.usernameAuthorEachProject{
+  cursor: pointer;
+}
+
+.usernameAuthorEachProject:hover{
+  color: rgb(6, 6, 102);
+  text-decoration: underline;
+}
+.btns_admin_vacanciesEachProject{}

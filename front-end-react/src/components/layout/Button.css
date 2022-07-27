@@ -1,0 +1,521 @@
+.button {
+  width: 80%;
+  height: 42.09px;
+  background: #ba0c16;
+  border-radius: 2rem;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.loginButton {
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  margin: 5% 19.1% 1%;
+  width: 61.5%;
+  height: 42.09px;
+  background: #ba0c16;
+  /*border-radius: 2rem;*/
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.registerButton,
+.backToMainPage {
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  width: 100%;
+  height: 42.09px;
+  background: #ba0c16;
+  border-radius: 0.7rem;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+}
+.backToMainPage {
+  margin-top: 10%;
+  width: 80%;
+  align-self: center;
+  margin-left: 12%;
+}
+.emailVerificationButton,
+.changePasswordBtn {
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  width: 40%;
+  height: 42.09px;
+  background: #ba0c16;
+  border-radius: 0.7rem;
+  border: none;
+  color: white;
+  font-size: 140%;
+}
+.changePasswordBtn {
+  margin: 0%;
+  margin-top: -2%;
+  font-size: medium;
+  background: #791a1f;
+}
+.recoverButton {
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  margin: 5% 9% 0% 9%;
+  width: 80%;
+  height: 42.09px;
+  background: #ba0c16;
+  border-radius: 2rem;
+  border: none;
+  color: white;
+  font-size: 100%;
+}
+
+.resetButton,
+.editprofileBtn {
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  margin: 7% 20% 0% 20%;
+  width: 60%;
+  height: 42.09px;
+  background: #ba0c16;
+  border-radius: 2rem;
+  border: none;
+  color: white;
+  font-size: 100%;
+}
+
+.editIdeaNecessityBTN,
+.addIdeaNecessityBTN,.AddProjectNecessityBTN {
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  height: 42.09px;
+  background: #ba0c16;
+  border-radius: 2rem;
+  border: none;
+  color: white;
+  font-size: 100%;
+  width: 30%;
+}
+
+.validateAccountButton {
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  margin: 10% 20% 0% 20%;
+  width: 60%;
+  height: 42.09px;
+  background: #ba0c16;
+  border-radius: 2rem;
+  border: none;
+  color: white;
+  font-size: 110%;
+}
+
+.loginButton:hover,
+.registerButton:hover,
+.recoverButton:hover,
+.resetButton:hover,
+.validateAccountButton:hover,
+.emailVerificationButton:hover,
+.changePasswordBtn:hover,
+.editprofileBtn:hover {
+  background-color: rgba(255, 253, 253, 0.5);
+  color: #ba0c16;
+  transition: 1s;
+}
+
+.loginButton:active,
+.registerButton:active,
+.recoverButton:active,
+.resetButton:active,
+.validateAccountButton:active,
+.emailVerificationButton:active {
+  background: #ba0c16;
+  color: rgba(255, 253, 253, 0.5);
+  transition: 1s;
+}
+
+.loginButton:disabled,
+.registerButton:disabled,
+.recoverButton:disabled,
+.resetButton:disabled,
+.validateAccountButton:disabled,
+.emailVerificationButton:disabled,
+.changePasswordBtn:disabled,
+.editprofileBtn:disabled,
+.addIdeaNecessityBTN:disabled,
+.editIdeaNecessityBTN:disabled,
+.button-justification:disabled {
+  cursor: not-allowed;
+  border: 1px solid #999999;
+}
+
+.editprofileBtn{
+margin-top: -10%;
+margin-bottom: 30%;
+margin-right: 0%;
+margin-left: 9%;}
+
+.smallBtn{
+  border: none;
+}
+
+.editprofileBtn {
+  margin-top: -10%;
+  margin-bottom: 30%;
+  margin-right: 0%;
+  margin-left: 9%;
+}
+
+.add-ideaNecessity, .add-projects{
+  cursor: pointer;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100%;
+  line-height: 130%;
+  align-items: center;
+  border-radius: 2rem;
+  border:none;
+  color: 000000;
+  background: #f8f0f0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.add-projects{
+  width: 15%;
+}
+
+.add-ideaNecessity:hover, .add-projects:hover, .editUserProfileBtn:hover {
+  background: #ba0c16;
+  color: rgba(255, 253, 253, 0.5);
+  transition: 1s;
+}
+
+.see-ideaNecessity,
+.love-ideaNecessity{
+  background-color: Transparent;
+  border: none;
+  cursor:pointer;
+  width: 50%;
+}
+
+.simbol-newMessage{
+  background-color: Transparent;
+  border: none;
+  cursor: pointer;
+  align-items: center;
+}
+
+.send-btn{
+  background-color: Transparent;
+  border: none;
+  cursor: pointer;
+  align-items: center;
+  width: 3%;
+}
+
+.add-comment{
+  background-color: Transparent;
+  border: none;
+  cursor: pointer;
+  align-items: center;
+  width: 3%;
+}
+
+.button-justification{
+  background: #BA0C16;
+  box-shadow: 0px 4px 19px rgba(119, 147, 65, 0.3);
+  border-radius: 10px;
+  color: white;
+  padding: 1%;
+  text-align: center;
+  margin-top: 1%;
+  border: none;
+}
+
+.button-justification:hover {
+  background-color: rgba(255, 253, 253, 0.5);
+  color: #ba0c16;
+  transition: 1s;
+}
+
+.reply-comment,.reply-answer{
+  color: #A0A4A8;
+  font-weight: bold;
+  font-size: 0.8em;
+  width: 5%;
+  margin-left: 95%;
+  background-color: Transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/*.add-comment{
+  background-color:#9D2F3C;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5%;
+  margin-left: 85.5%;
+  margin-bottom: 0.5%;
+}*/
+
+.add-reply{
+  background-color:#9D2F3C;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.2%;
+  padding-left: 0.3%;
+  padding-right: 0.3%;
+  margin-left: 0.5%;
+  margin-bottom: 0.5%;
+}
+
+.seemore-comment {
+  margin-left: 6%;
+  margin-right: 6%;
+  width: 88%;
+  border-radius: 5px;
+  border: none;
+  background-color: white;
+  /*color: rgb(131, 131, 137);*/
+  color: black;
+  text-align: left;
+}
+
+.seemore-answer{
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  background-color: white;
+  /*color: rgb(131, 131, 137);*/
+  color: black;
+  text-align: left;
+}
+
+.votebtn-ideaNecessity{
+  background-color: Transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0%;
+  text-align: center;
+  margin-left: 3%;
+}
+
+.lovebtn-ideaNecessity{
+  background-color: Transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0%;
+  text-align: center;
+  /*margin-left: 3%;*/
+  padding-left: 1em;
+}
+
+.availablebtn-ideaNecessity{
+  background-color: Transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0%;
+  text-align: center;
+  margin-left: 3%;
+  padding-left: 1em;
+}
+
+.postlink-ideaNecessity{
+  background-color: Transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0%;
+  text-align: center;
+  color: blue;
+}
+
+.usersavailable-ideaNecessity{
+  background-color: Transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0%;
+  text-align: center;
+  color: blue;
+  /*margin-left: 58%;*/
+}
+
+.see-more{
+  background-color: Transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0%;
+  text-align: center;
+  color: blue;
+}
+
+.linkMore-ideanecessity{
+  background-color: Transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0%;
+  text-align: center;
+  color: blue;
+  /*margin-top: 0.9%;*/
+}
+
+.delete-AssIdeaNecessity{
+  background-color: Transparent;
+  border: none;
+  cursor:pointer;
+  width: 40%;
+  margin-left: 35%;
+}
+
+.btn-interestAndSkill{
+  background: #FFFDFD;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+color: black;
+border: none;
+margin: 5px;
+padding: 10px;
+}
+
+.read-more{
+  background-color: Transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0%;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+}
+
+.see-myIdeaNecessity{
+  background-color: Transparent;
+  border: none;
+  cursor:pointer;
+  width: 33%;
+}
+
+.see-myIdeaNecessity2{
+  background-color: Transparent;
+  border: none;
+  cursor:pointer;
+  width: 33%;
+  align-items: center;
+  margin-left: 30%;
+}
+
+.authorbtn-ideaNecessity{
+  border: none;
+  cursor:pointer;
+  font-family: 'Poppins';
+  font-style: normal;
+  padding: 0em;
+  font-size: 80%;
+  line-height: 135.69%;
+  background-color: Transparent;
+  font-weight: 400;
+  letter-spacing: 0.005em;
+  line-height: 135.69%;
+  margin-left: 5px;
+}
+
+.authorbtn1-ideaNecessity{
+  border: none;
+  cursor:pointer;
+  font-family: 'Poppins';
+  font-style: normal;
+  padding: 0em;
+  font-size: 90%;
+  line-height: 135.69%;
+  background-color: Transparent;
+  font-weight: 400;
+  letter-spacing: 0.005em;
+  line-height: 135.69%;
+  margin-left: 5px;
+}
+
+.editUserProfileBtn{
+  cursor: pointer;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100%;
+  line-height: 130%;
+  align-items: center;
+  border-radius: 2rem;
+  border:none;
+  color: 000000;
+  background: #f8f0f0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding-left: 17%;
+  padding-right: 17%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.saidHelloBtn{
+  width: 98%;
+  height: 42.09px;
+  background: #db3c44;
+  border-radius: 2rem;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  margin: 1%;
+}
+
+.EditProjectNecessityBTN {
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100%;
+  padding: 10px;
+  align-items: center;
+  border-radius: 2rem;
+  border: none;
+  background-color: #c11723;
+  color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btnDisabled{
+  cursor: not-allowed !important;
+  background-color: #999999;
+}
+
+.authorbtn-ideaNecessity:hover,.authorbtn1-ideaNecessity:hover{
+  color: black;
+  border-bottom: 2px solid black;
+}
+
+.seemore-comment:hover,.seemore-answer:hover{
+  background-color: rgba(255, 253, 253, 0.5);
+  color: black;
+  transition: 1s;
+  font-weight: bold;
+}
+
+.postlink-ideaNecessity:hover,.usersavailable-ideaNecessity:hover,.linkMore-ideanecessity:hover {
+  color: Blue;
+  border-bottom: 1px solid Blue;
+}
+

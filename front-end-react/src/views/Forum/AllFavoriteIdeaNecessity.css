@@ -1,0 +1,20 @@
+.allFavoriteIdeaNecessity {
+    background-image: url("../../images/image2.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 90vh;
+}
+
+.header-allFavoriteIdeaNecessity{
+    display: flex;
+    flex-direction: row;
+    margin-left: 4%;
+    margin-right: 5%;
+    justify-content: space-between;
+    padding-top: 1%;
+}
+
+.list-allFavoriteIdeaNecessity{
+    height: 35em;
+    overflow: auto;
+}

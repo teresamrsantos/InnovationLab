@@ -1,0 +1,118 @@
+.link-ideanecessity{
+    font-family: "Poppins", sans-serif;
+    background: url("../../images/image2.png");
+    /*-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;*/
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 90vh;
+}
+/*
+.see-alltextideanecessity{
+    background-color: #f8f5f5;
+    margin-left: 4%;
+    margin-right: 4%;
+    border: 1px solid #f8f5f5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+}*/
+
+.input-searchIdeaNecessitybyTitle{
+    font-family: "Poppins";
+    font-style: normal;
+    width: 62%;
+    border: none;
+    height: 2em;
+    font-size: 1rem;
+    background: transparent;
+    color: rgba(44, 41, 41, 0.8);
+    border-bottom: 1px solid gray;
+    padding: 0.2em;
+    background-color: #fff;
+    border-radius: 0.2em;
+    margin-bottom: 1%;
+    margin-left: 1%;
+}
+
+.divGeral{
+    display: flex;
+    flex-direction: row;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 2%;
+}
+
+.divJustification1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.divJustification2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-right: 1%;
+}
+
+.btn-idea{
+    display: flex;
+    background: #f8f5f5;
+    border: 1px solid #FFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 1%;
+    padding: 0.2em;
+    height: 8hv;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn-select{
+    display: flex;
+    background: #6e6b6b;
+    border: 1px solid #FFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 1%;
+    padding: 0.2em;
+    height: 8hv;
+    cursor: pointer;
+    color: white;
+    width: 100%;
+}
+
+.btn-idea:hover,
+.btn-select:hover{
+    background: #F2B7B7;
+    color: rgba(255, 253, 253, 0.5);
+    transition: 1s;
+}
+
+.textarea-justification{
+    width: 100%;
+    height: 12em;
+    border-radius: 5px;
+    resize: none;
+}
+
+.search-linkIdeaNecessity{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.list-allIdeaNecessityTolink{
+    width: 100%;
+    height: 11.5em;
+    overflow: auto;
+}
+
+.no-linkIdeaNecessity{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

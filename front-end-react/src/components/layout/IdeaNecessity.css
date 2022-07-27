@@ -1,0 +1,90 @@
+.see-alltextideanecessity{
+    background-color: #f8f5f5;
+    margin-left: 4%;
+    margin-right: 4%;
+    border: 1px solid #f8f5f5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.body-ideanecessityToSee{
+    display: flex;
+    flex-direction: row;
+}
+
+.picture-ideaNecessityToSee{
+    border-radius: 5px;
+    height: 17%;
+    width: 17%;
+    align-items: center;
+}
+
+.description-ideaNecessityToSee{
+    width: 83%;
+}
+
+.header-seeideaNecessity{
+    display: flex;
+    flex-direction: row;
+}
+.divdate-ideaNecessity{
+    display: flex;
+    flex-direction: row;
+}
+
+.divdate-ideaNecessity2{
+    display: flex;
+    flex-direction: row;
+    width: 17%;
+    direction: rtl;
+}
+
+.footer-ideanecessity{
+    display: flex;
+    flex-direction: row;
+}
+
+.divauthor-ideanecessity{
+    width: 60%;
+}
+
+.author-divIdeaNecessity{
+    display: flex;
+    flex-direction: row;
+    /*padding-top: 1%;*/
+    width: 83%;
+}
+
+
+.header1-seeideaNecessity{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+}
+
+.header2-seeideaNecessity{
+    display: flex;
+    flex-direction: row;
+    width: 10%;
+    direction: rtl;
+}
+
+.divrow-ideanecessity{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.divrtl-ideanecessity{
+    width: 17%;
+}
+
+.editbtn-ideaNecessity,
+.trashbtn-ideaNecessity,
+.trashRestore-ideaNecessity{
+    border: none;
+    background-color: transparent;
+}

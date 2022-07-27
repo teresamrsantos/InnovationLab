@@ -1,0 +1,85 @@
+.addSkill {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+.addSkill:hover {
+  color: #c11723;
+  transition: 0.3s;
+}
+
+.search-container-Skills {
+  justify-content: left;
+  white-space: nowrap;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;  
+}
+
+.searchSkills {
+  display: inline-block;
+  margin-left: 6%;
+  width: 50%;
+}
+
+.select-Skill {
+  margin-left: 5%;
+width: max-content;
+}
+
+.listDataSkill_ul {
+  list-style: none;
+  margin-left: 15%;
+  margin-top: 1%;
+}
+
+.containerEachTypeSkill{
+    margin-top: 2%;
+    height:fit-content ;
+    padding-bottom: 10px;
+}
+
+.listEachTypeOfSkill_UL{
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: small;
+  justify-content: center;
+  text-align: center;
+  margin: 1%;
+  padding: 0.5em;
+  display: grid;
+  gap: 10px 2px;
+  overflow-wrap: break-word;
+  grid-template-columns:
+    minmax(auto, 1fr)
+    minmax(auto, 1fr)
+    minmax(auto, 1fr)
+    minmax(auto, 1fr);
+}
+
+
+.listEachTypeOfSkill_li {
+  background: #FFFDFD;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+  border-radius: 10px;
+  color: black;
+  border: none;
+  margin: 5px;
+  padding: 5px;
+}
+
+
+.errorCategory{
+position: absolute;
+top: 3em;
+width: 100%;
+left: 0;
+text-align: center;
+
+}

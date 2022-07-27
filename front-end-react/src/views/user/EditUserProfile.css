@@ -1,0 +1,107 @@
+.EditUserProfile {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  background: url("../../images/image3.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  height: 100vh;
+  flex-direction: row;
+  padding: 2%;
+}
+
+.profilePicture {
+  max-height: 100px;
+  border-radius: 40px;
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+
+.titleAndImage {
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.EditUserProfileDIVbuttonsAndFormAndTitle {
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  background-color: #e9e0e1bd;
+  border-radius: 40px;
+  margin-right: 2%;
+}
+
+
+.searchInterestSkill-editUserProfile{
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  padding: 20px;
+  background-color: #e9e0e1bd;
+  border-radius: 40px;
+  margin-right: 2%;
+overflow: auto;
+}
+.EditUserProfileRectangle {
+  display: flex;
+  flex-direction: row;
+}
+
+.formEditUserProfile {
+  display: flex;
+  flex-direction: row;
+  padding: 2em;
+}
+.FistColumn_EditProfile-form {
+  width: 50%;
+  display: flex;
+  margin-left: 2%;
+  flex-direction: column;
+  margin-right: 5%;
+}
+
+.SecondColumn_EditProfile-form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+}
+
+.numberEditProfile {
+  width: 20%;
+  text-align: center;
+}
+
+.textarea-register {
+  font-size: medium;
+  height: 60%;
+}
+.buttonDiv {
+margin-left: 55%;
+margin-top: 5%;
+
+
+}
+
+.picture-register{
+height: 58px
+}
+
+.showSuccesssMessageEditProfile{
+  padding: 10px;
+  border-radius: 10px;
+  border: #740b12 solid 3px;
+  font-size: large;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #740b12;
+  margin-top: 2%;
+  margin-left: -12%;
+
+}

@@ -1,0 +1,188 @@
+.logo-critical {
+  position: absolute;
+  /*left: -32em;*/
+  top: 0em;
+  max-width: 20%;
+  max-height: 20%;
+}
+
+
+.Register {
+  display: flex;
+  background: url("../../images/964uRTaAp-tlcXbXHQ-Titans_Careers.jpg") no-repeat center
+    center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  align-items: center;
+  height: 100vh;
+}
+
+.register-lateral {
+  display: flex;
+  flex-basis: 50%;
+}
+
+.register-rectangule {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  /* background-color: #ddd;*/
+  width: 100%;
+  height: 98vh;
+  margin: auto;
+  background: rgba(255, 253, 253, 0.5);
+  border-radius: 20px;
+  padding: 2%;
+  padding-bottom: 5%;
+  margin-right: 2%;
+}
+
+.ul-form {
+  list-style: none;
+  padding: 0;
+  width: 50%;
+}
+
+.ul-title {
+  width: 100%;
+}
+
+form {
+  display: flex;
+}
+
+.label-register1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.input-register1::placeholder,
+.select-register1::placeholder,
+.textarea-register1::placeholder {
+  font-family: "Poppins";
+  font-style: light;
+  font-size: 14px;
+}
+
+.input-register1 {
+  font-family: "Poppins";
+  font-style: normal;
+  border: none;
+  margin: auto;
+  margin-top: 1%;  
+ margin-bottom: 0.2%;
+  width: 95%;
+  height: 6%;
+  font-size: 1.2rem;
+  background: transparent;
+  /* border: none;*/
+  color: rgba(44, 41, 41, 0.8);
+  border-bottom: 1px solid gray;
+  padding: 0.5%;
+  background-color: #fff;
+  border-radius: 0.2em;
+}
+
+.select-register1 {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 0%;
+  width: 97%;
+  color: rgba(44, 41, 41, 0.8);
+  border-bottom: 1px solid gray;
+  font-size: 1rem;
+  background: transparent;
+  background-color: #fff;
+}
+
+.textarea-register1 {
+  border: none;
+  margin: auto;
+  margin-top: 2%;
+  width: 97%;
+  height: 28%;
+  font-size: 1.5rem;
+  background: transparent;
+  /* border: none;*/
+  color: rgba(0, 0, 0, 0.44);
+  border-bottom: 1px solid gray;
+  padding: 1%;
+  background-color: #fff;
+  border-radius: 0.2em;
+  resize: none;
+}
+
+.profilePicture1 {
+  margin-left: 30%; 
+  border-radius: 100px;
+  height: 140px;
+  width: 140px;
+}
+
+.emailExistsError {
+  margin-top: -5%;
+  margin-bottom: 2%;
+  font-size: large;
+  font-family: "Poppins";
+  font-weight: 600;
+  color: #c11723;
+}
+
+.emailExistsLink{
+  text-decoration: none;
+  color: #c11723;
+}
+
+
+.buttonDiv1{
+
+  
+}
+
+.registerSuccess{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.back-pageLogin{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin-right: 4%;
+}
+
+.title-backLogin{
+  color: #8D8D8D;
+}
+
+.link-backLogin{
+  color: #CE0606;
+  text-decoration: none;
+}
+
+.password-message{
+  display: flex;
+  padding: 3px;
+  text-align: justify;
+  padding: 8px 2px 2px 15px;
+  border-radius: 10px;
+  /*margin-top: -2%;*/
+  margin-bottom: 1%;
+}
+
+.password-messageError{
+  background-color: #c11723;
+  color: #fff;
+  padding: 3px;
+  text-align: justify;
+  padding: 8px 2px 2px 15px;
+  border-radius: 10px;
+  /*margin-top:-2%;*/
+  margin-bottom: 1%;
+}

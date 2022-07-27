@@ -1,0 +1,70 @@
+.search-container-SkillsToIdeaNecessity {
+    white-space: nowrap;
+}
+
+.searchSkills-input {
+    display: inline-block;
+    width: 35%;
+    margin-left: 6%;
+}
+
+.select-typeSkill{
+    width: fit-content;
+    margin-left: 64%;
+    margin-top: -6%;
+    border-color: #080401;
+}
+
+.errorCategory-Skills{
+    margin-left: 25%;
+    padding: 5px;
+    color: #c11723;
+}
+
+.addSkillToIdeaNecessity {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+.addSkillToIdeaNecessity:hover {
+    color: #c11723;
+    transition: 0.3s;
+}
+
+.containerEachTypeSkillIN{
+    margin-top: 2%;
+    height:fit-content ;
+    /*padding-bottom: 10px;*/
+}
+
+.listEachTypeOfSkillIN_UL{
+    font-family: "Poppins";
+    font-style: normal;
+    font-size: small;
+    justify-content: center;
+    text-align: center;
+    margin: 1%;
+    padding: 0.5em;
+    display: grid;
+    gap: 10px 2px;
+    overflow-wrap: break-word;
+    grid-template-columns:
+      minmax(auto, 1fr)
+      minmax(auto, 1fr)
+      minmax(auto, 1fr)
+      minmax(auto, 1fr);
+}
+
+.listEachTypeOfSkillIN_li { 
+    background: #FFFDFD;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 10px;
+    color: black;
+    border: none;
+    margin: 5px;
+    padding: 5px;
+}

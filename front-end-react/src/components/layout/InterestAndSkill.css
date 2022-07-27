@@ -1,0 +1,11 @@
+.interestAndSkill{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.div-skill{
+    display: flex;
+    flex-direction: row;
+
+}

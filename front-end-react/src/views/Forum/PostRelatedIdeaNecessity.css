@@ -1,0 +1,23 @@
+.postRelated-ideanecessity{
+    font-family: "Poppins", sans-serif;
+    background: url("../../images/image2.png");
+    /*-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;*/
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 90vh;
+}
+
+.list-allAssIdeaNecessity{
+    height: 22em;
+    overflow: auto;
+}
+
+.no-postRelated{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2%;
+}

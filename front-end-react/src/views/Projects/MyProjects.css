@@ -1,0 +1,124 @@
+.myProjetctRectangle {
+  background: url("../../images/image2.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  align-items: center;
+  min-height: 100vh;
+  height: fit-content;
+  margin-top: -0%;
+}
+.separatorButtonsDIVMyProjects {
+  display: flex;
+  padding-top: 20px;
+  padding-left: 50px;
+}
+
+.projectsInvitedTitle {
+  margin-left: 2%;
+  color: rgb(85, 5, 5);
+  font-size: larger;
+  font-family: "Poppins";
+  font-style: normal;
+}
+
+.ListOfInvites {
+  min-width: 30%;
+  margin-left: 5%;
+  margin-top: 2%;
+  list-style: none;
+}
+
+/*esta a formatar a caixinha de cada tarefa*/
+.eachInvite {
+  margin: 0.5rem;
+  background: rgba(216, 153, 153, 0.614);
+  color: rgb(0, 0, 0); /*texto de cada tarefa*/
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 40%;
+  border-radius: 15px;
+}
+
+.linkInvite {
+  text-decoration: none;
+  color: black;
+}
+
+.linkInvite:hover {
+  color: rgb(85, 5, 5);
+  text-decoration: underline;
+}
+.ButtonsEachInviteDIV {
+  display: flex;
+}
+
+.btnEachInvite {
+  font-size: medium;
+  border: 2px solid rgb(85, 5, 5);
+  background-color: rgba(252, 252, 252, 0.888);
+  border-radius: 6px;
+  size: 10px;
+}
+
+.btnEachInvite:hover {
+  border: transparent;
+  background-color: rgba(181, 27, 27, 0.563);
+}
+
+.alertMessage-MyProjects {
+  margin-left: 8%;
+  margin-top: 1%;
+  font-size: 1.5em;
+  text-decoration: underline;
+}
+
+.acceptBtn {
+  margin-right: 5%;
+}
+.declineBtn {
+}
+
+.buttonMyProjectsEdit-LeaveProject {
+  background-color: rgba(255, 0, 0, 0.555);
+  border-color: transparent;
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: small;
+
+  border-radius: 10px;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.favoriteDetailsButton_ProjectSquare{
+  direction: rtl;
+}
+
+.list-projects{
+  padding-left: 2%;
+  padding-bottom: 2%;
+  padding-right: 2%;
+}
+.titleWASprojectsDIV{
+  padding-left: 2%;
+  padding-bottom: 2%;
+}
+
+.activeProject{
+
+  margin-left: 5%;
+}
+
+
+
+.no-ACTIVEPROJECTS{
+  padding-top: 2%;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  margin-left: 50%;
+}

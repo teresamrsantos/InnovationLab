@@ -1,0 +1,56 @@
+.addInterest_forum {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+.addInterest_forum:hover {
+  color: #c11723;
+  transition: 0.3s;
+}
+
+.search-container-Interests_forum {
+  white-space: nowrap;
+}
+
+.searchInterests_forum {
+  display: inline-block;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.listDataInterest_ul_forum {
+  list-style: none;
+  margin-left: 30%;
+  margin-top: 1%;
+}
+
+.ulideaInterests {
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: small;
+  justify-content: center;
+  text-align: center;
+  padding: 0.5em;
+  display: grid;
+  gap: 10px 2px;
+  overflow-wrap: break-word;
+  grid-template-columns:
+    minmax(auto, 1fr)
+    minmax(auto, 1fr)
+    minmax(auto, 1fr)
+    minmax(auto, 1fr);
+}
+
+.divEachUserInterest_forum {
+  background: #FFFDFD;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+  border-radius: 10px;
+  color: black;
+  border: none;
+  margin: 5px;
+  padding: 5px;
+}

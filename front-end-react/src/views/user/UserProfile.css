@@ -1,0 +1,125 @@
+.userProfile {
+    font-family: "Poppins", sans-serif;
+    background: url("../../images/image2.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 90vh;
+    
+}
+
+.left-columnUserProfile{
+    width: 80%;
+    padding: 2%;
+}
+
+.block-userProfile{
+    background: rgba(173, 27, 27, 0.27);
+    border-radius: 12px;
+    padding: 0.5%;
+    margin-bottom: 1%;
+}
+
+.block-columnLeft{
+    width: 20%;
+    padding: 0.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block-columnRight{
+    width: 100%;
+    padding: 0.5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.block-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.userProfilePicture {
+    border-radius: 100px;
+    height: 110px;
+    width: 110px;
+    box-sizing: border-box;
+    border: 3px solid rgba(31, 31, 31, 0.1);
+    border-radius: 100px;
+}
+
+.biography-userProfile{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 16px;
+    color: #000000;
+    /*margin-bottom: -1em;*/
+}
+
+.descriptionProject-userProfile{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80%;
+    line-height: 135.69%;
+    letter-spacing: 0.005em;
+    color: #000000;
+    display: -webkit-box;
+    max-width: 100%;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.align-right{
+    /*direction: rtl;*/
+}
+
+.div-project{
+    background: #F1F1F1;
+    border-radius: 10px;
+    padding: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#linha-horizontal {
+    width: 100%;
+    border: 1px solid rgba(48, 48, 48, 0.1);
+    background-color: rgba(48, 48, 48, 0.1);
+}
+/*********SKILLS & INTEREST**************/
+.right-columnUserProfile{
+    width: 20%;
+    padding: 2%;
+}
+
+.div-loading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.div-projects{
+    height: 24em;
+    overflow: auto;
+}
+
+.div-editUserProfileBtn{
+    margin-bottom: 4%;
+}
+
+.no-userprofile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2%;
+}
+
+.FaUserEditIcon{
+    margin-right: 5px;
+}

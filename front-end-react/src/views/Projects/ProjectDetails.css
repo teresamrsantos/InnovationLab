@@ -1,0 +1,191 @@
+.detailsRectangle {
+  font-family: "Poppins", sans-serif;
+  background: url("../../images/image3.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  padding-top: 10PX;
+}
+
+.separatorButtonsDIV {
+  display: flex;
+  margin-left: 3%;
+ }
+
+
+.projectDetailsButton,
+.btnGoBack {
+  background-color: transparent;
+  border-color: transparent;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100%;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  color: #520202;
+}
+
+.activatedSeparator,
+.btnGoBack:hover {
+  text-decoration: underline;
+  color: #c02121;
+}
+
+.projectContent {
+  background-color: #f8f5f5;
+  margin-left: 3%;
+  margin-right: 3%;
+  border: 1px solid #f8f5f5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  padding-left: 3%;
+  padding-right: 3%;
+  margin-top: 2%;
+  height: max-content;
+}
+.projectContentIMGANDTEXTDIV_1 {
+  padding-bottom: 40px;
+  border-bottom: #c02121 2px solid;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.projectContentIMGANDTEXT {
+  display: flex;
+  flex-direction: row;
+  margin-left: 4%;
+  margin-right: 5%;
+  justify-content: space-between;
+  padding-top: 1%;
+  min-height: max-content;
+}
+
+.projectTitleDivAndFavorite{
+  display: flex;
+  flex-direction: row;
+
+}
+.projectTitleDiv {
+  display: flex;
+  justify-content: left;
+  width: 95%;
+}
+
+
+.btns_admin_ProjectDetails {
+  padding-top: 15px;
+  direction: rtl;
+}
+
+.btn_Favorite-projectDetails {
+  padding-top: 12px;
+}
+
+.projectButton {
+  display: flex;
+  flex-direction: row;
+  direction: rtl;
+  margin-right: 5%;
+}
+
+.btn-toBeAMember {
+  background-color: transparent;
+  padding: 10px;
+  border: #c02121 2px solid;
+  border-radius: 20px;
+}
+
+.projectResourcesAndPlan {
+  display: flex;
+  flex-direction: row;
+  margin-left: 3%;
+  margin-right: 3%;
+  border-bottom: #c02121 2px solid;
+  padding-top: 1%;
+}
+
+.projectPlan-DIV {
+  width: 100vh;
+  margin-right: 5%;
+  min-height: max-content;
+  margin-left: 5%;
+  margin-bottom: 2%;
+}
+.projectResources-DIV {
+  width: 100vh;
+  min-height: max-content;
+  margin-bottom: 2%;
+  margin-right: 5%;
+}
+
+.picture-projectDetails {
+  max-height: 200px;
+  margin-bottom: 2%;
+  margin-left: 2%;
+}
+
+.interestsAndSkills_ProjectDetails {
+  margin-left: 3%;
+  margin-right: 3%;
+  min-height: max-content;
+  border-bottom: #c02121 2px solid;
+}
+.projectMembers {
+  margin-top: 2%;
+  margin-left: 5%;
+}
+
+.interestsAndSkills_divProjectDetails {
+  margin-left: 5%;
+  margin-bottom: 2%;
+}
+.pictureUser {
+  border-radius: 80px;
+max-width: 80px;
+max-height: 80px;
+}
+.projectMembers-list {
+  display: grid;
+  gap: 5px 15px;
+  row-gap: 1px;
+  overflow-wrap: break-word;
+  grid-template-columns:
+    minmax(auto, 1fr)
+    minmax(auto, 1fr)
+    minmax(auto, 1fr)
+    minmax(auto, 1fr);
+}
+
+.eachMemberLi {
+  border-radius: 100px;
+  border: 1px solid rgb(56, 8, 8);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  background: #f8f5f5;
+  border: 1px solid #fff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-left: 2%;
+  margin-right: 5%;
+  margin-top: 1%;
+  height: 8hv;
+  padding: 0.2em;
+  cursor: pointer;
+}
+
+.usernameMember {
+  text-align: center;
+  margin-top: 12%;
+  margin-left: 3%;
+  width: fit-content;
+  text-decoration: none;
+  color: black;
+
+}
+
+button:disabled{
+
+ cursor:not-allowed}

@@ -1,0 +1,29 @@
+.allMyIdeaNecessity {
+    background-image: url("../../images/image2.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    min-height: 100vh;
+    height: fit-content;
+}
+
+.header-allMyIdeaNecessity{
+    display: flex;
+    flex-direction: row;
+    margin-left: 4%;
+    margin-right: 5%;
+    justify-content: space-between;
+    padding-top: 1%;
+}
+
+.list-allMyIdeaNecessity{
+    height: 35em;
+    overflow: auto;
+}
+
+.no-allmyIdeaNecessity{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2%;
+}

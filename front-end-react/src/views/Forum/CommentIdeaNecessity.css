@@ -1,0 +1,30 @@
+.comment-ideanecessity{
+    font-family: "Poppins", sans-serif;
+    background: url("../../images/image2.png");
+    /*-moz-background-size: cover;
+    -o-background-size: cover;*/
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 90vh;
+}
+
+.textarea-comment{
+    width: 100%;
+    height: 10%;
+    border-radius: 5px;
+    resize: none;
+    /*margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 0.5%;*/
+}
+
+.Send-Comment{
+    display: flex;
+    flex-direction: row;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    border-radius: 5px;
+    background-color: #9D2F3C;
+}

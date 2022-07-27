@@ -1,0 +1,106 @@
+.lineUser{
+    display: flex;
+    background: #f8f5f5;
+    border: 1px solid #FFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 2%;
+    margin-right: 5%;
+    margin-top: 1%;
+    padding: 0.2em;
+    height: 8hv;
+    cursor: pointer;
+}
+
+.userOnTheList_Privacy, 
+.lineUserPrivacy{
+    position: relative;
+    width: 450px;
+    display: flex;
+    background: #f8f5f5;
+    border: 1px solid #FFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 0.2em;
+}
+
+.buttonUserPrivacyRemove,
+.buttonUserPrivacyAdd{
+    display: flex;
+    position: absolute;
+    left: 25em;
+    justify-content: center;
+    background-color: transparent;
+    border-color: transparent;
+    height: 40px;
+    width: 40px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: medium;
+    border-radius: 2px;
+}
+
+.buttonUserPrivacy:hover{
+    color: rgba(164, 10, 10, 0.551);
+}
+
+
+.lineUser:hover, .lineUserAvailability:hover{
+    background: #F2B7B7;
+    color: rgba(255, 253, 253, 0.5);
+    transition: 1s;
+}
+
+.picture-user{
+    height:5em;
+    max-width: 100%;
+    margin-left: 6%;
+    border-radius: 50px;
+}
+
+.picture-user-privacy{
+   max-width:  50px;
+    max-height: 50px ;
+    border-radius: 50px;
+}
+
+.img-user{
+    width: 10%;
+    margin-right: 2%;
+}
+
+.info-user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.info-user-privacy{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.name-user-privacy{
+    margin-left: 2px;
+
+    color: black;
+
+}
+
+.buttonUserPrivacy{
+    float: right;
+}
+
+.lineUserAvailability{
+    display: flex;
+    background: #f8f5f5;
+    border: 1px solid #FFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 1%;
+    padding: 0.2em;
+    height: 8hv;
+    cursor: pointer;
+}

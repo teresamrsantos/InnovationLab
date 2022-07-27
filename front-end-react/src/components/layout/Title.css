@@ -1,0 +1,400 @@
+.title {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  color: #1a1c20;
+  font-size: 1.5rem;
+}
+
+.loginTitle,
+.registerSuccessBIG,
+.registerSuccessSmall,
+.editprofileTitle {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  line-height: 124%;
+  text-align: center;
+  margin: 3% 5% 2% 5%;
+}
+
+.registerSuccessBIG {
+  font-size: 28px;
+}
+
+.registerSuccessSmall {
+  margin-top: -1%;
+  font-size: 16px;
+}
+
+.registerTitle1,
+.emailVerificationTitle1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 3%;
+}
+
+.registerTitle2,
+.emailVerificationTitle2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4rem;
+  line-height: 80px;
+  text-align: center;
+  margin-top: 10%;
+  padding: 3%;
+}
+
+.registerTitle3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.5rem;
+  line-height: 80px;
+  text-align: left;
+  padding-bottom: 2%;
+}
+
+.recoverPasswordTitle {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 100%;
+  line-height: 30px;
+  line-height: 124%;
+  text-align: center;
+  margin: 3% 5% 2% 5%;
+}
+
+.notFoundTitle {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 200%;
+  text-align: center;
+  margin: 3% 5% 2% 5%;
+}
+
+.resetPasswordTitle {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 100%;
+  line-height: 30px;
+  line-height: 124%;
+  text-align: center;
+  margin: 3% 5% 2% 5%;
+}
+
+.validateAccountTitle {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 120%;
+  line-height: 30px;
+  text-align: center;
+  margin: 3% 20% 2% 20%;
+}
+
+.emailVerificationTitle3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  text-align: center;
+  margin-top: 0%;
+  padding: 5% 10% 5% 10%;
+}
+
+.title-ideaNecessity,
+.title-ideaNecessity_AddProject,
+.changePassword {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 140%;
+  line-height: 130%;
+  display: flex;
+  flex-direction: column;
+  /*align-items: center;*/
+  color: #000000;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-weight: bold;
+}
+
+.title-ideaNecessity_AddProject {
+  font-size: medium;
+  margin-bottom: 1%;
+}
+
+.changePassword {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 6%;
+  margin-bottom: 0%;
+}
+
+.editprofileTitle {
+  font-size: 2.2em;
+}
+
+.searchInterests,
+.titleUserInterests,
+.searchSkill,
+.select-privacyLabel,
+.searchInterests_forum {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.005em;
+  color: #ba0c16;
+}
+
+.title-manageUsersProject {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.005em;
+  color: #1f0000;
+  font-size: 1.5em;
+}
+.select-privacyLabel {
+  margin-right: 5%;
+}
+.titleUserInterests {
+  margin-left: 5%;
+}
+
+.titleUserSkils-Types {
+  color: #b84046;
+  text-decoration: underline;
+  margin-left: 3%;
+}
+
+.titleUserPrivacy {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  text-align: center;
+  color: #c11723;
+  font-size: 30px;
+}
+
+.AddIdeaNecesity,
+.EditIdeaNecessity,
+.AddProject,
+.title-editIdeaNecessity {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  color: #c11723;
+}
+
+.EditProject {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  text-align: left;
+  color: #681116e5;
+  margin-bottom: 1%;
+}
+
+
+.AddIdeaNecesity,
+.EditIdeaNecessity,
+.AddProject,
+.title-editIdeaNecessity {
+  color: #000000;
+  text-shadow: 2px 2px #f3bcbc;
+}
+
+.ideaInterestsInterests,
+.titleaddSkill {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  color: #b84046;
+}
+
+.title-forum,
+.project-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 150%;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  color: #520202;
+}
+
+.project-title {
+  font-size: 2em;
+}
+.title-linkIdeaNecessity,
+.title-postRelatedIdeaNecessity,
+.title-usersAvailibilityIdeaNecessity,
+.title-editIdeaNecessity {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 150%;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  color: #520202;
+  margin-top: 2%;
+  margin-left: 4%;
+  margin-bottom: 1%;
+}
+
+.title-ideaNecessityToSee {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4em;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  padding-bottom: 1%;
+  padding-right: 1em;
+}
+
+.title-commentIdeaNecessity {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 140%;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  color: #6b0909;
+  margin-top: 1%;
+  margin-left: 5%;
+  margin-bottom: 1%;
+}
+
+
+.projectDetails-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 140%;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  color: #6b0909;
+  margin-top: 1%;
+  margin-left: 1%;
+  margin-bottom: 1%;
+}
+
+
+.title-postRelatedMyIdeaNecessity {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 150%;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  margin-top: 2%;
+  margin-left: 0.5%;
+  margin-bottom: 1%;
+}
+
+.searchInterestsToIdeaNecessity,
+.searchSkillToIdeaNecessity {
+  display: inline-block;
+  margin-right: 5%;
+  font-weight: 400;
+  letter-spacing: 0.005em;
+  color: #ba0c16;
+  margin-left: 5%;
+}
+
+.name-userProfile {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  color: #2b2b2b;
+}
+
+.project-userProfile {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #2b2b2b;
+}
+
+.interest-userProfile,
+.skill-userProfile {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #2b2b2b;
+}
+
+.subtitle-userProfile {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+
+
+.titleProject-userProfile {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #2b2b2b;
+}
+
+.typeSkill-userProfile {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  padding-top: 1%;
+}
+
+
+.typeIdeaOrIdea,
+.descriptionEditor-AddIdeaNecesity,
+.descriptionEditor-EditIdeaNecesity{
+  font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #740b12;
+}
+
+.titleIdeaNecessityInterests,
+.titleIdeaNecessitySkills{
+  font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    color: #b84046;
+}
+

@@ -1,0 +1,206 @@
+.EditProjectRectangle {
+  font-family: "Poppins", sans-serif;
+  background: url("../../images/image2.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  height: 150vh;
+}
+
+.separatorButtonsDIV_EditProjects {
+  display: flex;
+  padding: 2%;
+}
+
+.containerEditProject {
+  display: flex;
+  flex-direction: row;
+}
+
+.editProjectContent {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 2%;
+  background-color: #e9e0e1bd;
+  padding: 2%;
+  margin-left: 1%;
+  margin-right: 1%;
+  padding-right: 2%;
+  border-radius: 20px;
+}
+
+.searchInterestSkill_EditProject {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  border-radius: 30px;
+  margin-right: 1%;
+  background-color: #e9e0e1bd;
+}
+
+.BigContainer_EditProject {
+  display: flex;
+  flex-direction: row;
+}
+
+.SchedulleBigContainer_EditProject {
+  margin-left: 5%;
+}
+
+.resources-container_EditProject,
+.schedulle-container_EditProject {
+  background-color: #ffffff;
+  width: 406px;
+  min-height: auto;
+  margin-bottom: 2%;
+}
+
+.editButtonDiv {
+  direction: rtl;
+  margin-top: 2%;
+}
+
+
+.titleInputDIV_EditProject {
+  margin-top: 1%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 3%;
+}
+
+.titleInput_EditProject {
+  margin-left: 1%;
+}
+
+.container_EditProject_PICTUREMEMBERSTITLE {
+  display: flex;
+  direction: column;
+}
+
+.DIVInputMembersAndPhoto_EditProject {
+  width: 60%;
+}
+
+.imgDiv_EditProject {
+  width: 40%;
+  direction: rtl;
+}
+
+.numberMaxMembers_inputDIV_EditProject,
+.numberMaxMembers_label_EditProject {
+  margin-top: 2%;
+}
+
+.containerContentProject_EditProject {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.editor-container_EditProject {
+  width: 860px;
+}
+
+.numberMaxMembers_input_EditProject {
+  width: 7%;
+  margin-left: 8%;
+  border-radius: 10px;
+  border: none;
+  display: inline;
+  text-align: center;
+}
+
+.inputPictureSpan_EditProject,
+.numberMaxMembers_label_EditProject,
+.titleEditor_EditProject,
+.titleResources_EditProject,
+.titleschedulle_EditProject,
+.titleSpan_EditProject {
+  font-size: large;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #740b12;
+}
+
+.searchInterestDIV_EditProject {
+  height: 40%;
+}
+
+.numberMaxMembers_label_EditProject {
+  margin-bottom: 2%;
+}
+.picture_EditProject {
+  margin-top: 1%;
+}
+
+.showSuccesssMessageEditProject {
+  padding: 10px;
+  border-radius: 10px;
+  border: #740b12 solid 3px;
+  font-size: large;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #740b12;
+}
+
+.containerIdeasNecerssityAssociated {
+  padding: 1%;
+  padding-left: 2%;
+  display: flex;
+  flex-direction: column;
+}
+
+.BIGcontainerEditProject{
+  width: 100%;
+}
+
+.EditProject_titleFirst{
+  display: flex;
+  flex-direction: row;
+}
+.EditProject{
+  width: 75%;
+}
+.buttonMyProjectsEdit-ConcludeProject{
+  margin-top: 1%;
+  height: 2em;
+  background-color: #740b12;
+  color: #ffffff;
+}
+
+.concludeTheProjectDiv{
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+
+  text-align: center;
+}
+
+.DIV-Youhavetochooseatleastone{
+  position: absolute;
+  left: 0%;
+  top: 2.6em;
+  font-size: larger;
+  width: 100%;
+  text-align: center;
+}
+
+.buttonEditProjects-ManageUsers{
+  margin-bottom: 3%;
+  margin-right: 3%;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.alert-warningEdit{
+  text-align: center;
+}
+
+.list-allIdeaNecessity{
+  height: fit-content;
+}

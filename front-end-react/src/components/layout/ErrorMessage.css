@@ -1,0 +1,24 @@
+.error, .matchingPasswordError,
+.recoverPasswordText {
+  color: red;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+.resetPassword {
+  /*margin-top: 2%;
+  margin-left: 17%;*/
+  text-align: center;
+}
+
+
+.success{
+    margin-top:0%;
+    margin-left: 0%;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    padding: 5px;
+    padding-left: 16px;
+    padding-right: 18px;
+    
+}
+

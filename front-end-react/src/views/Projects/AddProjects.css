@@ -1,0 +1,229 @@
+.AddProjectRectangle {
+  font-family: "Poppins", sans-serif;
+  background: url("../../images/image3.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  height: 150vh;
+  padding: 2%;
+}
+
+.containerAddProject {
+  display: flex;
+  flex-direction: row;
+}
+
+.addProjectContent {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 2%;
+  background-color: #e9e0e1bd;
+  padding: 2%;
+  margin-left: 1%;
+  margin-right: 1%;
+  padding-right: 2%;
+  border-radius: 20px;
+}
+
+.searchInterestSkill_AddProject {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  border-radius: 30px;
+  margin-right: 1%;
+  background-color: #e9e0e1bd;
+}
+
+.BigContainer_AddProject {
+  display: flex;
+  flex-direction: row;
+}
+
+.SchedulleBigContainer_AddProject {
+  margin-left: 5%;
+}
+
+.resources-container_AddProject,
+.schedulle-container_AddProject {
+  background-color: #ffffff;
+  width: 406px;
+  min-height: auto;
+  margin-bottom: 2%;
+}
+
+.addButtonDiv {
+  direction: rtl;
+}
+
+.AddProjectNecessityBTN {
+  cursor: pointer;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100%;
+  padding: 10px;
+  align-items: center;
+  border-radius: 2rem;
+  border: none;
+  background-color: #c11723;
+  color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titleInputDIV_AddProject {
+  margin-top: 1%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 3%;
+}
+
+.titleInput_AddProject {
+  margin-left: 1%;
+}
+.titleInput_AddProject {
+  width: 60%;
+  margin-left: 1%;
+}
+
+.container_AddProject_PICTUREMEMBERSTITLE {
+  display: flex;
+  direction: column;
+}
+
+.DIVInputMembersAndPhoto {
+  width: 60%;
+}
+
+.imgDiv_AddProject {
+  width: 40%;
+  direction: rtl;
+}
+
+.numberMaxMembers_inputDIV,
+.numberMaxMembers_label {
+  margin-top: 2%;
+}
+
+.containerContentProject_AddProject {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.editor-container_AddProject {
+  width: 860px;
+}
+
+.numberMaxMembers_input {
+  width: 7%;
+  margin-left: 8%;
+  border-radius: 10px;
+  border: none;
+  display: inline;
+  text-align: center;
+}
+
+.inputPictureSpan_AddProject,
+.numberMaxMembers_label_AddProject,
+.titleEditor_AddProject,
+.titleResources_AddProject,
+.titleschedulle_AddProject,
+.titleSpan_AddProject {
+  font-size: large;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #740b12;
+}
+
+.searchInterestDIV_AddProject {
+  height: 40%;
+}
+
+.numberMaxMembers_label_AddProject {
+  margin-bottom: 2%;
+}
+.picture_AddProject {
+  margin-top: 1%;
+}
+
+.buttonNext_AddToProject {
+  cursor: pointer;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100%;
+  padding: 15px;
+  align-items: center;
+  border-radius: 2rem;
+  border: none;
+
+  background-color: #c11723;
+  color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-left: 80%;
+  margin-bottom: 1%;
+}
+
+.buttonNext_AddToProject:hover {
+  color: black;
+  transition: 1s;
+  background: #f8f0f0;
+}
+
+.associateIdeaToProject {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2em;
+  margin-left: 5%;
+}
+
+.DIVbuttonNext_AddToProject {
+  margin-bottom: -1%;
+  margin-top: 2%;
+}
+/*.DIV-Youhavetochooseatleastonetoproceed {
+  margin-bottom: -5%;
+  margin-top: 2%;
+  font-family: "Poppins";
+  font-style: normal;
+  color: #2e090c;
+  font-weight: 900;
+  font-size: 1.5em;
+  margin-left: 40%;
+}
+*/
+.spanSuccessAddProject {
+  font-size: x-large;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+  color: #740b12;
+}
+
+.successAddProject {
+  margin-top: 5%;
+  justify-content: center;
+  text-align: center;
+}
+
+.spanSuccessAddProjectLink {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 100%;
+  text-align: center;
+  margin-top: 5%;
+  color: #740b12;
+}
+
+.alertMesage-Youhavetochooseatleastonetoproceed-addProject{
+  text-align: center;
+  width: 100%;
+}
